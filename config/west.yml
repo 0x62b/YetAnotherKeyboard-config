@@ -4,11 +4,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: YetAnotherKeyboard-config
+      url:base: https://github.com/0x62b
   projects:
     - name: zmk
       remote: zmkfirmware
+      revision: main
       import: app/west.yml
+    - name: hackpadplusplus-config
+      remote: hackpadplusplus-config
+      revision: main
   self:
     path: config
