@@ -11,8 +11,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: hackpadplusplus-config
-      remote: hackpadplusplus-config
+    - name: YetAnotherKeyboard-config
+      remote: YetAnotherKeyboard-config
       revision: main
   self:
     path: config
