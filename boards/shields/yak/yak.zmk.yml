@@ -1,20 +1,13 @@
-# This file was generated from a template. Edit it to match your keyboard.
-# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files
-# for instructions.
-
 file_format: "1"
 id: yak
 name: YetAnotherKeyboard
 type: shield
 
-# Set this to a URL that documents the keyboard.
 url: https://github.com/0x62b/YetAnotherKeyboard
 
-# Add any features your keyboard supports here.
-# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
 features:
   - keys
   - display
 
 requires:
-  - pro_micro
+  - nice_nano
