@@ -5,7 +5,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: YetAnotherKeyboard-config
-      url:base: https://github.com/0x62b
+      url-base: https://github.com/0x62b
   projects:
     - name: zmk
       remote: zmkfirmware
