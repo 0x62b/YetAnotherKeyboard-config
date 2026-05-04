@@ -1,6 +1,0 @@
-if SHIELD_YAK
-
-config ZMK_KEYBOARD_NAME
-    default "YAK"
-
-endif # SHIELD_YAK
