@@ -3,4 +3,4 @@ shield: [ "yak" ]
 
 include:
   - board: nice_nano
-    shield: yak
+    shield: yak nice_view
