@@ -35,6 +35,7 @@ nice_view_spi: &spi0 {
 / {
     chosen {
         zmk,physical-layout = &default_layout;
+        zephyr,display = &nice_view;
     };
 
     kscan: kscan {
