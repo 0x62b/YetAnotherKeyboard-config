@@ -39,6 +39,7 @@ nice_view_spi: &spi0 {
     };
 
     kscan: kscan {
+        compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
         wakeup-source;
 
